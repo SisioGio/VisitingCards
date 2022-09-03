@@ -1,0 +1,24 @@
+#header{
+  max-width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  position:relative;
+  display: flex;
+  padding: 0rem 2rem;
+}
+
+#header h1{
+  display: block;
+  padding: 1rem;
+}
+
+#header button{
+  background-color: transparent;
+  color: white;
+  border-radius: 24px;
+  border:1px white solid;
+  padding:1rem;
+  margin:0.5rem
+}

@@ -1,0 +1,66 @@
+
+#overview{
+  overflow-x: scroll;
+  transition: position 500ms cubic-bezier(0.200, 0.665, 0.525, 1.515);
+}
+
+.scroll-x{
+  overflow-x: scroll;
+}
+
+
+table input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px gray solid;
+}
+
+button:focus-visible{
+  outline: none;
+}
+table input:focus-visible{
+  outline: none;;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding:1rem;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+ 
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+}
